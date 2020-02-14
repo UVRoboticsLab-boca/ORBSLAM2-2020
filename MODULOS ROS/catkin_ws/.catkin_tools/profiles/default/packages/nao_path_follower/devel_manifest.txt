@@ -1,0 +1,5 @@
+nao_extras/nao_path_follower
+/home/robotica/catkin_ws/devel/.private/nao_path_follower/lib/nao_path_follower/nao_path_follower /home/robotica/catkin_ws/devel/lib/nao_path_follower/nao_path_follower
+/home/robotica/catkin_ws/devel/.private/nao_path_follower/lib/pkgconfig/nao_path_follower.pc /home/robotica/catkin_ws/devel/lib/pkgconfig/nao_path_follower.pc
+/home/robotica/catkin_ws/devel/.private/nao_path_follower/share/nao_path_follower/cmake/nao_path_followerConfig.cmake /home/robotica/catkin_ws/devel/share/nao_path_follower/cmake/nao_path_followerConfig.cmake
+/home/robotica/catkin_ws/devel/.private/nao_path_follower/share/nao_path_follower/cmake/nao_path_followerConfig-version.cmake /home/robotica/catkin_ws/devel/share/nao_path_follower/cmake/nao_path_followerConfig-version.cmake

@@ -1,0 +1,6 @@
+nao_extras/nao_teleop
+/home/robotica/catkin_ws/devel/.private/nao_teleop/lib/libnao_teleop.so /home/robotica/catkin_ws/devel/lib/libnao_teleop.so
+/home/robotica/catkin_ws/devel/.private/nao_teleop/lib/nao_teleop/teleop_nao_joy /home/robotica/catkin_ws/devel/lib/nao_teleop/teleop_nao_joy
+/home/robotica/catkin_ws/devel/.private/nao_teleop/lib/pkgconfig/nao_teleop.pc /home/robotica/catkin_ws/devel/lib/pkgconfig/nao_teleop.pc
+/home/robotica/catkin_ws/devel/.private/nao_teleop/share/nao_teleop/cmake/nao_teleopConfig.cmake /home/robotica/catkin_ws/devel/share/nao_teleop/cmake/nao_teleopConfig.cmake
+/home/robotica/catkin_ws/devel/.private/nao_teleop/share/nao_teleop/cmake/nao_teleopConfig-version.cmake /home/robotica/catkin_ws/devel/share/nao_teleop/cmake/nao_teleopConfig-version.cmake

@@ -1,0 +1,164 @@
+Comandos Bonitos
+
+****** IMPORTANTE REFERENTE A PAQUETES DE ROS ********
+
+Si marca un error en los paquetes de ROS se recomienda recompilar
+con catkin_make
+
+NOTA: recuerda que para compilar debes de estar en el Workspace catkin_ws o con el nombre que asignaste
+
+******************************************************
+
+****** MUY IMPORTANTE ********
+
+En cada modificacion que se haga el codigo, se debe compilar
+
+1. Ir a la carpeta build de orb-slam
+2. Escribir el comando "ninja"  ( sin las comillas)
+
+NOTA: Si es la primera vez que compilas orb slam, en la seccion Notas Extras viene como hacerlo
+******************************
+
+
+******* IMPORTANTE PARA CAMBIAR ENTRE CAMARA Y VIDEO EN ROS ********
+
+VA EN SRC/ ROS_MONO
+//Buscar las lineas de subscribers, las que dicen cosas relacionadas a video, comentar una y descomentar la otra segun lo que se necesite
+
+******* FIN CAMBIAR CAMARA Y VIDEO EN ROS ***************
+
+
+*********** COMANDOS IMPORTANTES PARA INSTALACION DE ROS ****
+
+Al iniciar la pc
+source /opt/ros/kinetic/setup.bash
+echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+
+
+export PYTHONPATH=~/naoqi/pynaoqi-python2.7-2.1.4.13-linux64:$PYTHONPATH
+echo 'export PYTHONPATH=~/naoqi/pynaoqi-python2.7-2.1.4.13-linux64:$PYTHONPATH' >> ~/.bashrc
+
+
+export PYTHONPATH=~/naoqi/naoqi-sdk-2.1.4.13-linux64/lib:$PYTHONPATH
+echo 'export PYTHONPATH=~/naoqi/naoqi-sdk-2.1.4.13-linux64/lib:$PYTHONPATH' >> ~/.bashrc
+
+source ~/catkin_ws/devel/setup.bash
+echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
+
+export AL_DIR=~/naoqi-sdk-2.1.4.13-linux64
+echo "export AL_DIR=~/naoqi-sdk-2.1.4.13-linux64" >> ~/.bashrc
+
+
+echo "export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:/home/robotica/Descargas/orb_slam_ros" >> ~/.bashrc
+export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:/home/robotica/Descargas/orb_slam_ros
+
+
+cd catkin_ws/
+source devel/setup.bash
+
+
+export ROS_MASTER_URI=http://192.168.1.103:11311
+
+************** FIN PASOS INSTALACION DE ROS ********************
+
+
+*********** PARA EJECUTAR EL ORB SLAM **************
+
+1. Siempre se tiene que correr la fuente de informacion ( Camara o video )
+
+----------------------------
+correr camara
+
+roslaunch usb_cam usb_cam-test.launch
+
+--------------------------
+correr video ros
+
+roslaunch video_stream_opencv video_file.launch 
+---------------------------
+
+2. Ejecutar el ORB SLAM
+
+--------------------------
+correr slam ros
+
+roslaunch orb_slam_ros orb_slam_mono.launch
+
+--------------------------
+
+NOTA: Automaticamente se guarda un PLY con los puntos del ORB SLAM en la carpeta ORB SLAM/BIN como prueba1.ply
+
+3. Para convertir el PointCloud a MESH ejecutar lo siguiente:
+
+pointcloud to mesh ejecutar en pointcloudtomes/build/bin
+
+./pointcloudToMESH /home/robotica/Descargas/orb_slam_ros/bin/prueba1.ply 2 1 /home/robotica/
+
+****************** FIN EJECUTAR ORB SLAM ****************
+
+
+
+
+
+************ NOTAS EXTRAS ********************
+
+-----------------------------
+
+agregar path del slam
+
+export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:/home/robotica/Descargas/orb_slam_ros
+-----------------------------
+
+En localmapping se aumentan los keyframes KeyFrameCulling
+
+la variable n0bs
+
+
+------- COMPILAR ORB SLAM POR PRIMERA VEZ ( DEMORA MUCHO) -----------
+
+NINJA COMPILE
+
+(en carpeta del proyecto,ej en el slam ros )
+mkdir build
+cd build
+cmake .. -DROS_BUILD_TYPE=Release -G Ninja
+ninja
+
+----------------------------------------------------------------------
+
+NAO
+SDK
+
+~/naoqi/naoqi-sdk-2.1.4.13-linux64/naoqi 
+
+
+------------------
+NAO PYTHON
+
+~/naoqi/pynaoqi-python2.7-2.1.4.13-linux64:$PYTHONPATH
+echo 'export PYTHONPATH=~/naoqi/pynaoqi-python2.7-2.1.4.13-linux64:$PYTHONPATH' >> ~/.bashrc
+
+---------------
+
+// NAO VIRTUAL
+
+roscore
+
+~/naoqi-sdk-2.1.4.13-linux64/naoqi --verbose --broker-ip 127.0.0.1
+
+LD_LIBRARY_PATH=~/naoqi-sdk-2.1.4.13-linux64/lib:$LD_LIBRARY_PATH NAO_IP=127.0.0.1 
+
+------------------------
+
+//NAO REAL
+
+roslaunch nao_bringup nao_full_py.launch nao_ip:=192.168.1.100 roscore_ip:=192.168.1.101 network_interface:=wlp2s0
+
+
+
+-----------------------
+rostopic pub -1 /cmd_vel geometry_msgs/Twist '{linear: {x: 1.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}'
+
+rostopic pub -1 /cmd_vel geometry_msgs/Twist '{linear: {x: 0.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}'
+
+************** FIN NOTAS EXTRA *************

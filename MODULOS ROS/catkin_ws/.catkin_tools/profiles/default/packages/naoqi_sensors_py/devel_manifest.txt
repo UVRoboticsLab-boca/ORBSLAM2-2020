@@ -1,0 +1,20 @@
+naoqi_bridge/naoqi_sensors_py
+/home/robotica/catkin_ws/devel/.private/naoqi_sensors_py/lib/python2.7/dist-packages/naoqi_sensors/__init__.pyc /home/robotica/catkin_ws/devel/lib/python2.7/dist-packages/naoqi_sensors/__init__.pyc
+/home/robotica/catkin_ws/devel/.private/naoqi_sensors_py/lib/python2.7/dist-packages/naoqi_sensors/__init__.py /home/robotica/catkin_ws/devel/lib/python2.7/dist-packages/naoqi_sensors/__init__.py
+/home/robotica/catkin_ws/devel/.private/naoqi_sensors_py/lib/python2.7/dist-packages/naoqi_sensors_py/__init__.py /home/robotica/catkin_ws/devel/lib/python2.7/dist-packages/naoqi_sensors_py/__init__.py
+/home/robotica/catkin_ws/devel/.private/naoqi_sensors_py/lib/python2.7/dist-packages/naoqi_sensors_py/boost/octomap_python.so /home/robotica/catkin_ws/devel/lib/python2.7/dist-packages/naoqi_sensors_py/boost/octomap_python.so
+/home/robotica/catkin_ws/devel/.private/naoqi_sensors_py/lib/python2.7/dist-packages/naoqi_sensors_py/boost/__init__.py /home/robotica/catkin_ws/devel/lib/python2.7/dist-packages/naoqi_sensors_py/boost/__init__.py
+/home/robotica/catkin_ws/devel/.private/naoqi_sensors_py/lib/python2.7/dist-packages/naoqi_sensors_py/cfg/NaoqiMicrophoneConfig.py /home/robotica/catkin_ws/devel/lib/python2.7/dist-packages/naoqi_sensors_py/cfg/NaoqiMicrophoneConfig.py
+/home/robotica/catkin_ws/devel/.private/naoqi_sensors_py/lib/python2.7/dist-packages/naoqi_sensors_py/cfg/NaoqiCameraConfig.py /home/robotica/catkin_ws/devel/lib/python2.7/dist-packages/naoqi_sensors_py/cfg/NaoqiCameraConfig.py
+/home/robotica/catkin_ws/devel/.private/naoqi_sensors_py/lib/python2.7/dist-packages/naoqi_sensors_py/cfg/__init__.py /home/robotica/catkin_ws/devel/lib/python2.7/dist-packages/naoqi_sensors_py/cfg/__init__.py
+/home/robotica/catkin_ws/devel/.private/naoqi_sensors_py/lib/pkgconfig/naoqi_sensors_py.pc /home/robotica/catkin_ws/devel/lib/pkgconfig/naoqi_sensors_py.pc
+/home/robotica/catkin_ws/devel/.private/naoqi_sensors_py/share/naoqi_sensors_py/docs/NaoqiMicrophoneConfig-usage.dox /home/robotica/catkin_ws/devel/share/naoqi_sensors_py/docs/NaoqiMicrophoneConfig-usage.dox
+/home/robotica/catkin_ws/devel/.private/naoqi_sensors_py/share/naoqi_sensors_py/docs/NaoqiCameraConfig-usage.dox /home/robotica/catkin_ws/devel/share/naoqi_sensors_py/docs/NaoqiCameraConfig-usage.dox
+/home/robotica/catkin_ws/devel/.private/naoqi_sensors_py/share/naoqi_sensors_py/docs/NaoqiCameraConfig.wikidoc /home/robotica/catkin_ws/devel/share/naoqi_sensors_py/docs/NaoqiCameraConfig.wikidoc
+/home/robotica/catkin_ws/devel/.private/naoqi_sensors_py/share/naoqi_sensors_py/docs/NaoqiCameraConfig.dox /home/robotica/catkin_ws/devel/share/naoqi_sensors_py/docs/NaoqiCameraConfig.dox
+/home/robotica/catkin_ws/devel/.private/naoqi_sensors_py/share/naoqi_sensors_py/docs/NaoqiMicrophoneConfig.dox /home/robotica/catkin_ws/devel/share/naoqi_sensors_py/docs/NaoqiMicrophoneConfig.dox
+/home/robotica/catkin_ws/devel/.private/naoqi_sensors_py/share/naoqi_sensors_py/docs/NaoqiMicrophoneConfig.wikidoc /home/robotica/catkin_ws/devel/share/naoqi_sensors_py/docs/NaoqiMicrophoneConfig.wikidoc
+/home/robotica/catkin_ws/devel/.private/naoqi_sensors_py/share/naoqi_sensors_py/cmake/naoqi_sensors_pyConfig.cmake /home/robotica/catkin_ws/devel/share/naoqi_sensors_py/cmake/naoqi_sensors_pyConfig.cmake
+/home/robotica/catkin_ws/devel/.private/naoqi_sensors_py/share/naoqi_sensors_py/cmake/naoqi_sensors_pyConfig-version.cmake /home/robotica/catkin_ws/devel/share/naoqi_sensors_py/cmake/naoqi_sensors_pyConfig-version.cmake
+/home/robotica/catkin_ws/devel/.private/naoqi_sensors_py/include/naoqi_sensors_py/NaoqiMicrophoneConfig.h /home/robotica/catkin_ws/devel/include/naoqi_sensors_py/NaoqiMicrophoneConfig.h
+/home/robotica/catkin_ws/devel/.private/naoqi_sensors_py/include/naoqi_sensors_py/NaoqiCameraConfig.h /home/robotica/catkin_ws/devel/include/naoqi_sensors_py/NaoqiCameraConfig.h

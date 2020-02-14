@@ -1,0 +1,5 @@
+naoqi_bridge/naoqi_pose
+/home/robotica/catkin_ws/devel/.private/naoqi_pose/lib/python2.7/dist-packages/xapparser/__init__.py /home/robotica/catkin_ws/devel/lib/python2.7/dist-packages/xapparser/__init__.py
+/home/robotica/catkin_ws/devel/.private/naoqi_pose/lib/pkgconfig/naoqi_pose.pc /home/robotica/catkin_ws/devel/lib/pkgconfig/naoqi_pose.pc
+/home/robotica/catkin_ws/devel/.private/naoqi_pose/share/naoqi_pose/cmake/naoqi_poseConfig-version.cmake /home/robotica/catkin_ws/devel/share/naoqi_pose/cmake/naoqi_poseConfig-version.cmake
+/home/robotica/catkin_ws/devel/.private/naoqi_pose/share/naoqi_pose/cmake/naoqi_poseConfig.cmake /home/robotica/catkin_ws/devel/share/naoqi_pose/cmake/naoqi_poseConfig.cmake

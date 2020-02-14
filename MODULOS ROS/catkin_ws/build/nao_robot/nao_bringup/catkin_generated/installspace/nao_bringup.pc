@@ -1,0 +1,8 @@
+prefix=/home/robotica/catkin_ws/install
+
+Name: nao_bringup
+Description: Description of nao_bringup
+Version: 0.5.15
+Cflags: 
+Libs: -L/home/robotica/catkin_ws/install/lib 
+Requires: 

@@ -1,0 +1,5 @@
+EN ROS
+
+* Aveces hay errores de compilacion debido a directorios que ya no existen, esto se debe a que cambia el nombre de usuario entre ordenadores, ej. Mi usuario es "laboratorio" quedando /laboratorio/Descargas , mientras que el tuyo puede ser "miusuario" quedando /miusuario/Descargas.
+Para solucionarlo solo ve a los build y cambia lo que se te pida.
+

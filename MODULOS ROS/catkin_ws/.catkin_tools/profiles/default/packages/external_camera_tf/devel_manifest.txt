@@ -1,0 +1,10 @@
+external_camera_tf
+/home/robotica/catkin_ws/devel/.private/external_camera_tf/lib/external_camera_tf/marker_broadcaster /home/robotica/catkin_ws/devel/lib/external_camera_tf/marker_broadcaster
+/home/robotica/catkin_ws/devel/.private/external_camera_tf/lib/external_camera_tf/check_for_chessboard /home/robotica/catkin_ws/devel/lib/external_camera_tf/check_for_chessboard
+/home/robotica/catkin_ws/devel/.private/external_camera_tf/lib/external_camera_tf/calib_gui /home/robotica/catkin_ws/devel/lib/external_camera_tf/calib_gui
+/home/robotica/catkin_ws/devel/.private/external_camera_tf/lib/external_camera_tf/external_camera_tf_broadcaster /home/robotica/catkin_ws/devel/lib/external_camera_tf/external_camera_tf_broadcaster
+/home/robotica/catkin_ws/devel/.private/external_camera_tf/lib/external_camera_tf/compute_single_camera_pose /home/robotica/catkin_ws/devel/lib/external_camera_tf/compute_single_camera_pose
+/home/robotica/catkin_ws/devel/.private/external_camera_tf/lib/external_camera_tf/compute_transformation /home/robotica/catkin_ws/devel/lib/external_camera_tf/compute_transformation
+/home/robotica/catkin_ws/devel/.private/external_camera_tf/lib/pkgconfig/external_camera_tf.pc /home/robotica/catkin_ws/devel/lib/pkgconfig/external_camera_tf.pc
+/home/robotica/catkin_ws/devel/.private/external_camera_tf/share/external_camera_tf/cmake/external_camera_tfConfig.cmake /home/robotica/catkin_ws/devel/share/external_camera_tf/cmake/external_camera_tfConfig.cmake
+/home/robotica/catkin_ws/devel/.private/external_camera_tf/share/external_camera_tf/cmake/external_camera_tfConfig-version.cmake /home/robotica/catkin_ws/devel/share/external_camera_tf/cmake/external_camera_tfConfig-version.cmake

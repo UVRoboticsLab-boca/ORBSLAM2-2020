@@ -1,0 +1,5 @@
+catkin_simple
+/home/robotica/catkin_ws/devel/.private/catkin_simple/lib/pkgconfig/catkin_simple.pc /home/robotica/catkin_ws/devel/lib/pkgconfig/catkin_simple.pc
+/home/robotica/catkin_ws/devel/.private/catkin_simple/share/catkin_simple/cmake/catkin_simpleConfig-version.cmake /home/robotica/catkin_ws/devel/share/catkin_simple/cmake/catkin_simpleConfig-version.cmake
+/home/robotica/catkin_ws/devel/.private/catkin_simple/share/catkin_simple/cmake/catkin_simpleConfig.cmake /home/robotica/catkin_ws/devel/share/catkin_simple/cmake/catkin_simpleConfig.cmake
+/home/robotica/catkin_ws/devel/.private/catkin_simple/share/catkin_simple/cmake/catkin_simple-extras.cmake /home/robotica/catkin_ws/devel/share/catkin_simple/cmake/catkin_simple-extras.cmake

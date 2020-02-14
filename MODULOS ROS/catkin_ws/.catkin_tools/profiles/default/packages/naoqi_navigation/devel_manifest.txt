@@ -1,0 +1,4 @@
+naoqi_bridge/naoqi_navigation/python
+/home/robotica/catkin_ws/devel/.private/naoqi_navigation/lib/pkgconfig/naoqi_navigation.pc /home/robotica/catkin_ws/devel/lib/pkgconfig/naoqi_navigation.pc
+/home/robotica/catkin_ws/devel/.private/naoqi_navigation/share/naoqi_navigation/cmake/naoqi_navigationConfig-version.cmake /home/robotica/catkin_ws/devel/share/naoqi_navigation/cmake/naoqi_navigationConfig-version.cmake
+/home/robotica/catkin_ws/devel/.private/naoqi_navigation/share/naoqi_navigation/cmake/naoqi_navigationConfig.cmake /home/robotica/catkin_ws/devel/share/naoqi_navigation/cmake/naoqi_navigationConfig.cmake

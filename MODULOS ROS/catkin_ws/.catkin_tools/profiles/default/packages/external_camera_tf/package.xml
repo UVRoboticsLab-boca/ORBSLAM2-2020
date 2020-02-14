@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+  <name>external_camera_tf</name>
+  <version>1.0.0</version>
+  <description>The external_camera_tf package is designed for an external replaceable camera</description>
+  <maintainer email="ilja.tu.da@gmail.com">Ilja Schirschow</maintainer>
+  <license>BSD</license>
+  <!--- TODO WEBSITE-->
+  <url type="website">http://wiki.ros.org/beginner_tutorials</url>
+  <!---  deps                   -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  <run_depend>cv_bridge</run_depend>
+  <run_depend>image_transport</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>tf</run_depend>
+  <export>
+  </export>
+</package>

@@ -1,0 +1,7 @@
+uvc_camera
+/home/robotica/catkin_ws/devel/.private/uvc_camera/lib/libnodelet_uvc_camera.so /home/robotica/catkin_ws/devel/lib/libnodelet_uvc_camera.so
+/home/robotica/catkin_ws/devel/.private/uvc_camera/lib/uvc_camera/uvc_stereo_node /home/robotica/catkin_ws/devel/lib/uvc_camera/uvc_stereo_node
+/home/robotica/catkin_ws/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node /home/robotica/catkin_ws/devel/lib/uvc_camera/uvc_camera_node
+/home/robotica/catkin_ws/devel/.private/uvc_camera/lib/pkgconfig/uvc_camera.pc /home/robotica/catkin_ws/devel/lib/pkgconfig/uvc_camera.pc
+/home/robotica/catkin_ws/devel/.private/uvc_camera/share/uvc_camera/cmake/uvc_cameraConfig.cmake /home/robotica/catkin_ws/devel/share/uvc_camera/cmake/uvc_cameraConfig.cmake
+/home/robotica/catkin_ws/devel/.private/uvc_camera/share/uvc_camera/cmake/uvc_cameraConfig-version.cmake /home/robotica/catkin_ws/devel/share/uvc_camera/cmake/uvc_cameraConfig-version.cmake

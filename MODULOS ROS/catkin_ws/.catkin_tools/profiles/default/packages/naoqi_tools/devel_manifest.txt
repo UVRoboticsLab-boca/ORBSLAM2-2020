@@ -1,0 +1,5 @@
+naoqi_bridge/naoqi_tools
+/home/robotica/catkin_ws/devel/.private/naoqi_tools/lib/python2.7/dist-packages/naoqi_tools/__init__.py /home/robotica/catkin_ws/devel/lib/python2.7/dist-packages/naoqi_tools/__init__.py
+/home/robotica/catkin_ws/devel/.private/naoqi_tools/lib/pkgconfig/naoqi_tools.pc /home/robotica/catkin_ws/devel/lib/pkgconfig/naoqi_tools.pc
+/home/robotica/catkin_ws/devel/.private/naoqi_tools/share/naoqi_tools/cmake/naoqi_toolsConfig-version.cmake /home/robotica/catkin_ws/devel/share/naoqi_tools/cmake/naoqi_toolsConfig-version.cmake
+/home/robotica/catkin_ws/devel/.private/naoqi_tools/share/naoqi_tools/cmake/naoqi_toolsConfig.cmake /home/robotica/catkin_ws/devel/share/naoqi_tools/cmake/naoqi_toolsConfig.cmake

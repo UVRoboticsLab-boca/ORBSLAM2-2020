@@ -1,0 +1,8 @@
+prefix=/home/robotica/catkin_ws/install
+
+Name: naoqi_sensors_py
+Description: Description of naoqi_sensors_py
+Version: 0.5.5
+Cflags: -I/home/robotica/catkin_ws/install/include
+Libs: -L/home/robotica/catkin_ws/install/lib 
+Requires: 

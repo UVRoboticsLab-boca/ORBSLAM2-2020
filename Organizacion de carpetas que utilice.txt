@@ -1,0 +1,9 @@
+Para modulos de ros
+
+En la carpeta personal del usuario ( en la raiz )
+
+Se creo una carpeta llamada catkin_ws
+
+Para el ORB SLAM y PointCloud to Mesh
+
+Dentro de la carpeta Descargas estaban dichas carpetas

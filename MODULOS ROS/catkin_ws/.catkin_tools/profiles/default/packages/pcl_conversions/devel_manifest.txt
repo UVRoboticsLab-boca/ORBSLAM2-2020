@@ -1,0 +1,4 @@
+pcl_conversions
+/home/robotica/catkin_ws/devel/.private/pcl_conversions/lib/pkgconfig/pcl_conversions.pc /home/robotica/catkin_ws/devel/lib/pkgconfig/pcl_conversions.pc
+/home/robotica/catkin_ws/devel/.private/pcl_conversions/share/pcl_conversions/cmake/pcl_conversionsConfig-version.cmake /home/robotica/catkin_ws/devel/share/pcl_conversions/cmake/pcl_conversionsConfig-version.cmake
+/home/robotica/catkin_ws/devel/.private/pcl_conversions/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake /home/robotica/catkin_ws/devel/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake

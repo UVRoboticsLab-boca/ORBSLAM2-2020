@@ -1,0 +1,3 @@
+/home/robotica/Descargas/pointcloudToMesh/build/CMakeFiles/edit_cache.dir
+/home/robotica/Descargas/pointcloudToMesh/build/CMakeFiles/rebuild_cache.dir
+/home/robotica/Descargas/pointcloudToMesh/build/CMakeFiles/pointcloudToMESH.dir

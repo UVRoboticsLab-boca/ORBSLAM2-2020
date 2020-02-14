@@ -1,0 +1,4 @@
+nao_robot/nao_bringup
+/home/robotica/catkin_ws/devel/.private/nao_bringup/lib/pkgconfig/nao_bringup.pc /home/robotica/catkin_ws/devel/lib/pkgconfig/nao_bringup.pc
+/home/robotica/catkin_ws/devel/.private/nao_bringup/share/nao_bringup/cmake/nao_bringupConfig.cmake /home/robotica/catkin_ws/devel/share/nao_bringup/cmake/nao_bringupConfig.cmake
+/home/robotica/catkin_ws/devel/.private/nao_bringup/share/nao_bringup/cmake/nao_bringupConfig-version.cmake /home/robotica/catkin_ws/devel/share/nao_bringup/cmake/nao_bringupConfig-version.cmake
